@@ -13,13 +13,15 @@ This repository applies Data Science techniques on the dataset sourced from reco
 ### Data Exploration
  
  #### Probably Useful Columns
- - recommendation_set_id -- Unique numeric identifier
- - query_identifier -- Source document title
- - query_word_count -- words in the source document's title
- - query_detected_language -- detected language
+
+- recommendation_set_id -- Unique numeric identifier
+- query_identifier -- Source document title
+- query_word_count -- words in the source document's title
+- query_detected_language -- detected language
  
  #### Probably Not So Useful Columns (MetaData)
- - user_id -- Hash string, 199 unique users, a few users with many thousands of entries 
+
+- user_id -- Hash string, 199 unique users, a few users with many thousands of entries 
  
 |     |     |
 |----------------------------------|------|
@@ -39,10 +41,11 @@ This repository applies Data Science techniques on the dataset sourced from reco
 | fb1e00b65a76f46eb56b0650728e0aff | 1174 |
 | f6811db56838495a9cfa0930f5df8c29 | 1160 |
  
- - session_id -- Hash string, same session id for a lot of users which probbaly doesn't make sense
- |     |     |
- |----------------------------------|------|
- | 2b87d422871b0b10908dd0dcf662fdb0 | 2619 |
+- session_id -- Hash string, same session id for a lot of users which probbaly doesn't make sense
+
+|     |     |
+|----------------------------------|------|
+| 2b87d422871b0b10908dd0dcf662fdb0 | 2619 |
 | c762ddf095b3fc2a60270ddda082c6ad | 2239 |
 | 471e4b86e3560c6feb474def098169b6 | 1354 |
 | bcf1814caa6afe84eeebef28ff236a7f | 1335 |
