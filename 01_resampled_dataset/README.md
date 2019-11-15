@@ -1,5 +1,7 @@
 ## 1st Iteration of Synthetic Dataset.
 
+### Shared the dataset through Google Drive due to size restrictions.
+
 ### Methods Applied before Resampling: 
 > 1. Removed High NAN value features for each organisation_id
 > 2. Filled Low NAN value features with mode of training set of that organisation_id’s dataset 
@@ -21,3 +23,4 @@ Below are the Original and Resampled Dataset shapes.
 
 * Original Dataset Shape_08 Counter({0: 15067, 1: 159})
 * Resampled dataset shape_08 Counter({0: 15067, 1: 15067})
+
